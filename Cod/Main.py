@@ -66,7 +66,7 @@ os.makedirs(rutaArchivoRegionales, exist_ok=True)
 
 # Se debe iniciar el proceso obteniendo los archivos regionales en SFTP:
 
-regionalFilezilla.ObtenerArchivosRegionales(rutaArchivoRegionales)
+#regionalFilezilla.ObtenerArchivosRegionales(rutaArchivoRegionales)
 
 
 
