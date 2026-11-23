@@ -6,7 +6,8 @@ def ObtenerColacionCorta(data):
         (data.iloc[:, 19].astype(str).str.strip() == "Descanso Corto")  # &
     ]
     print(filtrado)
-    filtradoColacionCorta = filtrado.iloc[:, [0, 1, 2, 5, 7, 16, 17, 18, 19]]
+    filtradoColacionCorta = filtrado.iloc[:, [0, 1, 2, 5, 7, 13, 17, 18, 19]]
     print(filtradoColacionCorta)
     print(len(filtradoColacionCorta))
     return filtradoColacionCorta
+

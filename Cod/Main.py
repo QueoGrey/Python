@@ -168,7 +168,6 @@ for archivo in archivos:
         print(dataColacionCorta)
 
 
-
         ###### Obtención Colación Larga ###########
         dataColacionLarga = colacionLarga.ObtenerColacionLarga(dataFilter)
         print(dataColacionLarga)
